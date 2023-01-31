@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.SecondFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:id="@+id/rb_answers_on_question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_question_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="Вопрос 1"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_one_on_q_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 1" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_two_on_q_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 2" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_three_on_q_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 3" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_four_on_q_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 4" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rb_answers_on_question_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_question_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="Вопрос 2"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_one_on_q_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 1" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_two_on_q_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 2" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_three_on_q_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 3" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_four_on_q_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 4" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rb_answers_on_question_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_question_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="Вопрос 3"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_one_on_q_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 1" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_two_on_q_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 2" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_three_on_q_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 3" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer_four_on_q_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ответ 4" />
+            </RadioGroup>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="50dp" />
+
+    <Button
+        android:id="@+id/b_toBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/s_toBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/b_toSend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline" />
+
+    <Button
+        android:id="@+id/b_toSend"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/s_toSend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/b_toBack"
+        app:layout_constraintTop_toTopOf="@id/guideline" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

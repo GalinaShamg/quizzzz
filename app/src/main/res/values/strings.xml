@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">m8_quiz_animation</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="s_toBegin">Начать</string>
+    <string name="s_toBack">Назад</string>
+
+    <string name="s_first_screen">Приветствие</string>
+    <string name="s_second_screen">Опрос</string>
+    <string name="s_toSend">Отправить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="s_third_screen">Результат опроса</string>
+    <string name="s_toRepeat">Начать заново</string>
+    <string name="s_ready">Готов!</string>
+</resources>
