@@ -14,7 +14,10 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment"
-            />
+            app:enterAnim="@anim/card_flip_right_enter"
+            app:exitAnim="@anim/card_flip_right_exit"
+            app:popEnterAnim="@anim/card_flip_left_enter"
+            app:popExitAnim="@anim/card_flip_left_exit" />
     </fragment>
     <fragment
         android:id="@+id/ThirdFragment"
@@ -24,6 +27,10 @@
         <action
             android:id="@+id/action_ThirdFragment_to_SecondFragment"
             app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/card_flip_right_enter"
+            app:exitAnim="@anim/card_flip_right_exit"
+            app:popEnterAnim="@anim/card_flip_left_enter"
+            app:popExitAnim="@anim/card_flip_left_exit"
             app:popUpTo="@id/FirstFragment" />
     </fragment>
     <fragment
@@ -34,10 +41,17 @@
         <action
             android:id="@+id/action_SecondFragment_to_ThirdFragment"
             app:destination="@id/ThirdFragment"
+            app:enterAnim="@anim/card_flip_right_enter"
+            app:exitAnim="@anim/card_flip_right_exit"
+            app:popEnterAnim="@anim/card_flip_left_enter"
+            app:popExitAnim="@anim/card_flip_left_exit"
             app:popUpTo="@id/FirstFragment" />
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment"
-             />
+            app:enterAnim="@anim/card_flip_left_enter"
+            app:exitAnim="@anim/card_flip_left_exit"
+            app:popEnterAnim="@anim/card_flip_right_enter"
+            app:popExitAnim="@anim/card_flip_right_exit" />
     </fragment>
 </navigation>

@@ -33,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/textView_first_screen"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
+        app:lottie_rawRes="@raw/plant_jump"
    />
 
     <TextView
@@ -85,5 +86,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/b_ready"
         app:layout_constraintTop_toTopOf="@id/guideline" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите дату рождения"
+        app:layout_constraintBottom_toTopOf="@+id/b_toBegin"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
