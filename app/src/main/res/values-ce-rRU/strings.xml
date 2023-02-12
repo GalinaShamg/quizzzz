@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">m8_quiz_animation</string>
+    <string name="title_activity_navigation" translatable="false">NavigationActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="s_toBegin" translatable="false">Начать</string>
+    <string name="s_toBack" translatable="false">Назад</string>
+
+    <string name="s_first_screen" translatable="false">Приветствие</string>
+    <string name="s_second_screen" translatable="false">Опрос</string>
+    <string name="s_toSend" translatable="false">Отправить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="s_third_screen" translatable="false">Результат опроса</string>
+    <string name="s_toRepeat" translatable="false">Начать заново</string>
+    <string name="s_ready" translatable="false">Готов!</string>
+    <string name="date" translatable="false">Введите дату рождения</string>
+    <string name="ready">Добрый день, Вы готовы пройти опрос?</string>
+    <string name="_1">Вопрос 1</string>
+    <string name="answer_1">Ответ 1</string>
+    <string name="answer_2">Ответ 2</string>
+    <string name="answer_3">Ответ 3</string>
+    <string name="answer_4">Ответ 4</string>
+    <string name="question_2">Вопрос 2</string>
+    <string name="answer_21">Ответ 1</string>
+    <string name="answer_22">Ответ 2</string>
+    <string name="answer_23">Ответ 3</string>
+    <string name="answer_24">Ответ 4</string>
+    <string name="question_3">Вопрос 3</string>
+    <string name="answer_31">Ответ 1</string>
+    <string name="answer_32">Ответ 2</string>
+    <string name="answer_33">Ответ 3</string>
+    <string name="answer_34">Ответ 4</string>
+</resources>

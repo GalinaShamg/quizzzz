@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:maxLines="3"
-        android:text="Добрый день, Вы готовы пройти опрос?"
+        android:text="@string/ready"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@id/lottie_view"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="50dp" />
+        app:layout_constraintGuide_end="72dp" />
 
     <!-- Ripple эффект кнопки -->
     <Button
@@ -88,12 +88,14 @@
         app:layout_constraintTop_toTopOf="@id/guideline" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Введите дату рождения"
-        app:layout_constraintBottom_toTopOf="@+id/b_toBegin"
+        android:text="@string/date"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
 
         />
 
